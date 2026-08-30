@@ -1,0 +1,13 @@
+#Python
+.venv/
+__pycache__/
+*.pyc
+
+#macOS
+.DS_Store
+
+#Raw source documents/images
+data/raw/
+
+#Temporary files
+test.png
