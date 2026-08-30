@@ -12,3 +12,5 @@ What Does “Correct” Mean?
 For this project, I would focus mainly on word-level and character-level accuracy rather than diacritics.
 The goal is to fix actual OCR errors, such as confusing similar Arabic characters, missing letters, extra letters, or incorrect word boundaries.
 Diacritics can be preserved when they are available, but they should not be required for the text to be considered correct.
+
+Tesseract baseline: CER = 4.82%, WER = 12.40% on 10 manually corrected Arabic OCR samples.
