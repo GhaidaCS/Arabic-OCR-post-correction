@@ -10,4 +10,4 @@ __pycache__/
 data/raw/
 
 #Temporary files
-test.png
+test.png.DS_Store
