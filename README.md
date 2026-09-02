@@ -14,3 +14,4 @@ The goal is to fix actual OCR errors, such as confusing similar Arabic character
 Diacritics can be preserved when they are available, but they should not be required for the text to be considered correct.
 
 Tesseract baseline: CER = 4.82%, WER = 12.40% on 10 manually corrected Arabic OCR samples.
+Zero-Shot Qwen: CER = 7.75%, WER = 25.84% on 10 manually corrected Arabic OCR samples.
