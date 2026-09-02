@@ -62,7 +62,7 @@ OCR text:
         )
 
         #Keep the same filename as the OCR input
-        output_file = OUTPUT_DIR / ocr_file.name
+        output_file = OUTPUT_DIR / f"{ocr_file.parent.name}_{ocr_file.name}"
 
         output_file.write_text(
             response.strip(),
